@@ -7,7 +7,8 @@ build:
 	mkdocs build
 serve:
 	mkdocs serve
-
+deploy:
+	mkdocs gh-deploy
 # format:
 # 	black autodiff
 # 	isort autodiff
