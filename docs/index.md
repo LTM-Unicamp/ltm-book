@@ -29,7 +29,7 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 Nova equação
 
 \begin{equation}
-\exp^{i\pi} + 1 = 0
+e^{i\pi} + 1 = 0
 \end{equation}
 
 ## Figure
