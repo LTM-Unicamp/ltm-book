@@ -1,12 +1,13 @@
 site_name: Ltm Book
-site_url: https://example.com/
+site_url: https://ltm-unicamp.github.io/ltm-book/
 nav:
     - Home: index.md
     - Capítulo 2: capitulo2.md
 theme:
     name: gitbook
 plugins:
-  - search
+    - search
+    - pdf-export
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 markdown_extensions:
