@@ -36,12 +36,12 @@ jobs:
         run: |
             make build
 
-      # #----------------------------------------------
-      # # deploy site with mkdocs
-      # #----------------------------------------------
-      - name: Deploy
-        run: |
-            mkdocs gh-deploy --force --clean --verbose
+#       # #----------------------------------------------
+#       # # deploy site with mkdocs
+#       # #----------------------------------------------
+#       - name: Deploy
+#         run: |
+#             mkdocs gh-deploy --force --clean --verbose
      
       # #----------------------------------------------
       # # run lint and test suite
