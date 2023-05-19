@@ -39,7 +39,7 @@ jobs:
       # #----------------------------------------------
       - name: Deploy
         run: |
-            make deploy
+            mkdocs gh-deploy --force --clean --verbose
      
       # #----------------------------------------------
       # # run lint and test suite
