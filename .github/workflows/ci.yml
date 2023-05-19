@@ -37,9 +37,9 @@ jobs:
       # #----------------------------------------------
       # # deploy site with mkdocs
       # #----------------------------------------------
-      # - name: Deploy
-      #   run: |
-      #       make deploy
+      - name: Deploy
+        run: |
+            make deploy
      
       # #----------------------------------------------
       # # run lint and test suite
