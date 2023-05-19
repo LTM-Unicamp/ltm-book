@@ -1,3 +1,4 @@
 mkdocs
 mkdocs-gitbook
 python-markdown-math
+mkdocs-pdf-export-plugin
