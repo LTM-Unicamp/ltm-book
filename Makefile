@@ -8,7 +8,7 @@ build:
 serve:
 	mkdocs serve
 deploy:
-	mkdocs gh-deploy --force --clean --verbose
+	#mkdocs gh-deploy --force --clean --verbose
 	#mkdocs gh-deploy
 # format:
 # 	black autodiff
